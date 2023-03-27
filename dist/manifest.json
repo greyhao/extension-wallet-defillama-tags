@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "wallet-tags-extension",
+  "version": "0.0.1",
+  "description": "a chrome extension. input wallet address, then show you all tags about this address. The tags come from DefiLlama.",
+  "action": {
+    "default_popup": "src/popup/index.html",
+    "default_icon": "icon-34.png"
+  },
+  "icons": {
+    "128": "icon-128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "icon-128.png",
+        "icon-34.png",
+        "assets/js/*.js",
+        "assets/css/*.css",
+        "assets/img/memes/*.jpg",
+        "assets/img/protocols/*.jpg",
+        "assets/jpg/*.jpg",
+        "assets/jpg/*.chunk.jpg",
+        "assets/img/memes/*.png",
+        "assets/img/protocols/*.png",
+        "assets/png/*.png",
+        "assets/png/*.chunk.png",
+        "assets/img/memes/*.webp",
+        "assets/img/protocols/*.webp",
+        "assets/webp/*.webp",
+        "assets/webp/*.chunk.webp"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}
